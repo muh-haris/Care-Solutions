@@ -146,7 +146,7 @@ export default function Hero() {
         >
           {[
             { number: '92%', label: 'Accuracy Rate' },
-            { number: '10k+', label: 'Processed Samples' },
+            // { number: '10k+', label: 'Processed Samples' },
             { number: '24/7', label: 'Support Available' }
           ].map((stat, index) => (
             <motion.div
