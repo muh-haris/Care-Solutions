@@ -48,7 +48,7 @@ export default function Home() {
     setResult(null);
     try {
       const response = await axios.post(
-        "https://umartariq-depression-detector-api.hf.space/predict",
+        "https://umartariq-depressionapp.hf.space/predict",
         { responses: answers },
         { headers: { "Content-Type": "application/json" } }
       );
