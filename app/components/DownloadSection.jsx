@@ -1,5 +1,5 @@
 // import Image from "next/image";
-// import logo from "/public/images/qrcode.jpg";
+// import logo from "/public/images/qr-code.jpg";
 
 // export default function DownloadSection() {
 //   return (
@@ -24,7 +24,7 @@
 //-------------
 
 import Image from "next/image";
-import logo from "/public/images/qrcode.jpg";
+import logo from "/public/images/qr-code.jpg";
 import { ArrowDown, Download, Phone, Tablet, Laptop } from "lucide-react";
 
 export default function DownloadSection() {
@@ -74,7 +74,7 @@ export default function DownloadSection() {
             </div>
             
             <a 
-              href="/download/app.apk" 
+              href="https://drive.google.com/file/d/152Ap9xhynifem-WlDBGrKaFZD7ufMu_j/view?usp=sharing" 
               download
               className="inline-flex items-center bg-white text-orange-600 font-medium px-8 py-4 rounded-full 
                         hover:bg-orange-100 transition-all duration-300 shadow-lg hover:shadow-xl"
